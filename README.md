@@ -12,7 +12,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/lifejuggler/react-sortable-tree/badge.svg?branch=master)](https://coveralls.io/github/lifejuggler/react-sortable-tree?branch=master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
->This is merely a fork and an actively developed version of this package [here](https://github.com/frontend-collective/react-sortable-tree) - Created and managed by the Frontend-collective for which I am a merecollaborator
+>This is merely an actively maintained forked version of this package [here](https://github.com/frontend-collective/react-sortable-tree) - Created and managed by the Frontend-collective for which I am a collaborator
 
 >A React component for Drag-and-drop sortable representation of hierarchical data. Checkout the [demo](https://lifejuggler.github.io/react-sortable-tree/) for a demonstration of some basic features. Checkout the [storybook](https://lifejuggler.github.io/react-sortable-tree/storybook) for advanced usage.
 
