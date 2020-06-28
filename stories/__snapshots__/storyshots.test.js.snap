@@ -234,7 +234,7 @@ exports[`Storyshots Advanced Drag from external source 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/external-node.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/external-node.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -713,7 +713,7 @@ exports[`Storyshots Advanced Drag out to remove 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/drag-out-to-remove.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/drag-out-to-remove.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -1035,7 +1035,7 @@ exports[`Storyshots Advanced Playing with generateNodeProps 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/generate-node-props.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/generate-node-props.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -1619,7 +1619,7 @@ exports[`Storyshots Advanced Prevent some nodes from having children 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/childless-nodes.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/childless-nodes.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -1632,8 +1632,8 @@ exports[`Storyshots Advanced Touch support (Experimental) 1`] = `
 <div>
   <div>
     <span>
-      This is 
-      not 
+      This is
+      not
       a touch-supporting browser
     </span>
     <div
@@ -1883,7 +1883,7 @@ exports[`Storyshots Advanced Touch support (Experimental) 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/touch-support.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/touch-support.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -2324,7 +2324,7 @@ exports[`Storyshots Advanced Tree-to-tree dragging 1`] = `
           }
         }
       >
-        Enable node copy via 
+        Enable node copy via
         <b>
           shouldCopyOnOutsideDrop
         </b>
@@ -2358,7 +2358,7 @@ exports[`Storyshots Advanced Tree-to-tree dragging 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/tree-to-tree.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/tree-to-tree.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -2575,7 +2575,7 @@ exports[`Storyshots Advanced onlyExpandSearchedNodes 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/only-expand-searched-node.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/only-expand-searched-node.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -2860,7 +2860,7 @@ exports[`Storyshots Basics Add and remove nodes programmatically 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/add-remove.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/add-remove.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -3190,7 +3190,7 @@ exports[`Storyshots Basics Callbacks 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/callbacks.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/callbacks.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -3447,7 +3447,7 @@ exports[`Storyshots Basics Minimal implementation 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/barebones.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/barebones.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -3800,7 +3800,7 @@ exports[`Storyshots Basics Modify nodes 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/modify-nodes.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/modify-nodes.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -4386,7 +4386,7 @@ exports[`Storyshots Basics Prevent drop 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/can-drop.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/can-drop.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -5034,7 +5034,7 @@ exports[`Storyshots Basics Row direction support 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/rtl-support.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/rtl-support.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -5251,7 +5251,7 @@ exports[`Storyshots Basics Search 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/search.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/search.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -5466,7 +5466,7 @@ exports[`Storyshots Basics Themes 1`] = `
                           className="rstcustom__rowLabel"
                         >
                           <span>
-                            Imported from react-sortable-tree-theme-file-explorer
+                            Imported from react-cat-tree-theme-file-explorer
                           </span>
                         </div>
                         <div
@@ -5551,9 +5551,9 @@ exports[`Storyshots Basics Themes 1`] = `
                           <span>
                             <div>
                               Find it on
-                               
+
                               <a
-                                href="https://www.npmjs.com/package/react-sortable-tree-theme-file-explorer"
+                                href="https://www.npmjs.com/package/react-cat-tree-theme-file-explorer"
                               >
                                 npm
                               </a>
@@ -5692,7 +5692,7 @@ exports[`Storyshots Basics Themes 1`] = `
                         >
                           <span>
                             <div>
-                              Simply set it to the 
+                              Simply set it to the
                               <code>
                                 theme
                               </code>
@@ -5734,7 +5734,7 @@ exports[`Storyshots Basics Themes 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/themes.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/themes.js"
     rel="noopener noreferrer"
     target="_top"
   >
@@ -5961,35 +5961,35 @@ exports[`Storyshots Basics treeData import/export 1`] = `
     ↓This flat data is generated from the modified tree data↓
     <ul>
       <li>
-        id: 
+        id:
         1
-        , name: 
+        , name:
         N1
-        , parent: 
+        , parent:
         null
       </li>
       <li>
-        id: 
+        id:
         2
-        , name: 
+        , name:
         N2
-        , parent: 
+        , parent:
         null
       </li>
       <li>
-        id: 
+        id:
         3
-        , name: 
+        , name:
         N3
-        , parent: 
+        , parent:
         2
       </li>
       <li>
-        id: 
+        id:
         4
-        , name: 
+        , name:
         N4
-        , parent: 
+        , parent:
         3
       </li>
     </ul>
@@ -6014,7 +6014,7 @@ exports[`Storyshots Basics treeData import/export 1`] = `
   </button>
   <a
     className="sourceLink"
-    href="https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/tree-data-io.js"
+    href="https://github.com/lifejuggler/react-cat-tree/blob/master/stories/tree-data-io.js"
     rel="noopener noreferrer"
     target="_top"
   >

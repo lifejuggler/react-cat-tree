@@ -34,7 +34,7 @@ const wrapWithSource = (node, src) => (
       PLAY WITH THIS CODE →
     </button>
     <a
-      href={`https://github.com/frontend-collective/react-sortable-tree/blob/master/stories/${src}`}
+      href={`https://github.com/lifejuggler/react-cat-tree/blob/master/stories/${src}`}
       target="_top"
       rel="noopener noreferrer"
       className="sourceLink"

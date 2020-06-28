@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SortableTree, { getFlatDataFromTree, getTreeFromFlatData } from '../src';
 // In your own app, you would need to use import styles once in the app
-// import 'react-sortable-tree/styles.css';
+// import 'react-cat-tree/styles.css';
 
 const initialData = [
   { id: '1', name: 'N1', parent: null },

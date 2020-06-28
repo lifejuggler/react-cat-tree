@@ -2,7 +2,7 @@
 import { getParameters } from 'codesandbox/lib/api/define';
 
 const GIT_URL =
-  'https://api.github.com/repos/frontend-collective/react-sortable-tree/contents';
+  'https://api.github.com/repos/lifejuggler/react-cat-tree/contents';
 
 export const SANDBOX_URL = 'https://codesandbox.io/api/v1/sandboxes/define';
 
@@ -11,15 +11,15 @@ const getURL = filename => `${GIT_URL}/stories/${filename}`;
 
 // strip ../src from the src
 const strip = code =>
-  code.replace('../src', 'react-sortable-tree').replace(
+  code.replace('../src', 'react-cat-tree').replace(
     `// In your own app, you would need to use import styles once in the app
-// import 'react-sortable-tree/styles.css';`,
+// import 'react-cat-tree/styles.css';`,
     ''
   );
 
 // modify code so we can just have one file in the sandbox. index.js
 const modify = code => {
-  const addToTop = `import { render } from 'react-dom';\nimport 'react-sortable-tree/style.css';\n`;
+  const addToTop = `import { render } from 'react-dom';\nimport 'react-cat-tree/style.css';\n`;
   const addToBottom = `\nrender(<App />, document.getElementById('root'));`;
   return addToTop + code + addToBottom;
 };
@@ -50,9 +50,9 @@ const getPayload = code =>
             'prop-types': 'latest',
             'react-dnd': 'latest',
             'react-dnd-html5-backend': 'latest',
-            'react-sortable-tree-theme-file-explorer': 'latest',
+            'react-cat-tree-theme-file-explorer': 'latest',
             'react-dnd-touch-backend': 'latest',
-            'react-sortable-tree': 'latest',
+            'react-cat-tree': 'latest',
           },
         },
       },

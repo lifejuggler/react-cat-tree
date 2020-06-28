@@ -11,18 +11,18 @@ class App extends React.Component {
         <div className="navigation-wrapper">
           <a
             className="title"
-            href="https://github.com/frontend-collective/react-sortable-tree"
+            href="https://github.com/lifejuggler/react-cat-tree"
             taget="_blank"
           >
-            React Sortable Tree
+            React Cat Tree - Meow
           </a>
           <a
             className="github-button"
-            href="https://github.com/frontend-collective/react-sortable-tree"
+            href="https://github.com/lifejuggler/react-cat-tree"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star frontend-collective/react-sortable-tree on GitHub"
+            aria-label="Star lifejuggler/react-cat-tree on GitHub"
           >
             Star
           </a>
@@ -35,7 +35,7 @@ class App extends React.Component {
         </div>
         <iframe
           title="sandbox"
-          src="https://codesandbox.io/embed/github/frontend-collective/react-sortable-tree/tree/master/website/sandbox?odemirror=1&view=preview"
+          src="https://codesandbox.io/embed/github/lifejuggler/react-cat-tree/tree/master/website/sandbox?odemirror=1&view=preview"
           sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
         />
       </div>

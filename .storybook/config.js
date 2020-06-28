@@ -4,7 +4,7 @@ import { setOptions } from '@storybook/addon-options';
 
 setOptions({
   name: 'React Sortable Tree',
-  url: 'https://github.com/lifejuggler/react-sortable-tree',
+  url: 'https://github.com/lifejuggler/react-cat-tree',
   showAddonPanel: false,
 });
 

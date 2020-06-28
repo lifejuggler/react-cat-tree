@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line import/no-unresolved
-import SortableTree, { toggleExpandedForAll } from 'react-sortable-tree';
+import SortableTree, { toggleExpandedForAll } from 'react-cat-tree';
 
 import treeData from './treeData';
 

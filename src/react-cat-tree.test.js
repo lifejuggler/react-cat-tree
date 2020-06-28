@@ -10,7 +10,7 @@ import HTML5Backend from 'react-dnd-html5-backend';
 import TouchBackend from 'react-dnd-touch-backend';
 import SortableTree, {
   SortableTreeWithoutDndContext,
-} from './react-sortable-tree';
+} from './react-cat-tree';
 import TreeNode from './tree-node';
 import DefaultNodeRenderer from './node-renderer-default';
 

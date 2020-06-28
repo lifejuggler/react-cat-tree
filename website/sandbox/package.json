@@ -4,6 +4,6 @@
   "dependencies": {
     "react": "^16",
     "react-dom": "^16",
-    "react-sortable-tree": "^2"
+    "react-cat-tree": "^2"
   }
 }

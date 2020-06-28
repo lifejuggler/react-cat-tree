@@ -35,7 +35,7 @@ import {
 } from './utils/default-handlers';
 import DndManager from './utils/dnd-manager';
 import classnames from './utils/classnames';
-import './react-sortable-tree.css';
+import './react-cat-tree.css';
 
 let treeIdCounter = 1;
 

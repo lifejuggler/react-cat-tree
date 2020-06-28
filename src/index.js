@@ -1,6 +1,6 @@
 import SortableTree, {
   SortableTreeWithoutDndContext,
-} from './react-sortable-tree';
+} from './react-cat-tree';
 
 export * from './utils/default-handlers';
 export * from './utils/tree-data-utils';

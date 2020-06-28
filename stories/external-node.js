@@ -5,7 +5,7 @@ import { DndProvider, DragSource } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { SortableTreeWithoutDndContext as SortableTree } from '../src';
 // In your own app, you would need to use import styles once in the app
-// import 'react-sortable-tree/styles.css';
+// import 'react-cat-tree/styles.css';
 
 // -------------------------
 // Create an drag source component that can be dragged into the tree

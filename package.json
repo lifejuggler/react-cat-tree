@@ -1,14 +1,14 @@
 {
-  "name": "react-sortable-tree",
-  "version": "2.7.1",
-  "description": "Drag-and-drop sortable component for nested data and hierarchies",
+  "name": "react-cat-tree",
+  "version": "0.0.1",
+  "description": "sortable tree with drag and drop feature",
   "scripts": {
     "start": "parcel website/index.html",
     "prebuild": "yarn run lint && yarn run clean",
     "build": "rollup -c",
     "buildOnly": "rollup -c",
     "build:storybook": "yarn run clean:storybook && build-storybook -o build/storybook",
-    "build:website": "yarn run clean:website && parcel build website/index.html -d build --public-url /react-sortable-tree/",
+    "build:website": "yarn run clean:website && parcel build website/index.html -d build --public-url /react-cat-tree/",
     "clean": "rimraf dist",
     "clean:storybook": "rimraf build/storybook",
     "clean:website": "rimraf build",
@@ -30,10 +30,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontend-collective/react-sortable-tree"
+    "url": "https://github.com/lifejuggler/react-cat-tree"
   },
-  "homepage": "https://frontend-collective.github.io/react-sortable-tree/",
-  "bugs": "https://github.com/frontend-collective/react-sortable-tree/issues",
+  "homepage": "https://lifejuggler.github.io/react-cat-tree/",
+  "bugs": "https://github.com/lifejuggler/react-cat-tree/issues",
   "authors": [
     "Chris Fritz"
   ],
@@ -77,7 +77,8 @@
     "react-dnd": "^9.4.0",
     "react-dnd-html5-backend": "^10.0.2",
     "react-lifecycles-compat": "^3.0.4",
-    "react-virtualized": "^9.21.2"
+    "react-virtualized": "^9.21.2",
+    "yarn": "^1.22.4"
   },
   "peerDependencies": {
     "react": "^16.3.0",
@@ -120,7 +121,7 @@
     "react-dnd-touch-backend": "^9.4.0",
     "react-dom": "^16.11.0",
     "react-hot-loader": "^4.12.17",
-    "react-sortable-tree-theme-file-explorer": "^2.0.0",
+    "react-sortable-tree-theme-minimal": "^0.0.1",
     "react-test-renderer": "^16.11.0",
     "rimraf": "^3.0.0",
     "rollup": "^1.27.0",
