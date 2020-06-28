@@ -1,7 +1,7 @@
 # React Cat(egory) tree
 
 
->This is merely an actively maintained forked version of this package [here](https://github.com/lifejuggler/react-cat-tree) - Created and managed by the lifejuggler
+>This is merely an actively maintained forked version of this package [here](https://github.com/lifejuggler/react-cat-tree) - Managed by the lifejuggler
 
 >A React component for Drag-and-drop sortable representation of hierarchical data. Checkout the [demo](https://lifejuggler.github.io/react-cat-tree/) for a demonstration of some basic features. Checkout the [storybook](https://lifejuggler.github.io/react-cat-tree/storybook) for advanced usage.
 
