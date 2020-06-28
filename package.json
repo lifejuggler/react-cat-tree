@@ -6,7 +6,6 @@
     "start": "parcel website/index.html",
     "prebuild": "yarn run lint && yarn run clean",
     "build": "rollup -c",
-    "buildOnly": "rollup -c",
     "build:storybook": "yarn run clean:storybook && build-storybook -o build/storybook",
     "build:website": "yarn run clean:website && parcel build website/index.html -d build --public-url /react-cat-tree/",
     "clean": "rimraf dist",
@@ -22,6 +21,7 @@
     "deploy": "gh-pages -d build",
     "deploy-storybook": "storybook-to-ghpages"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -35,7 +35,7 @@
   "homepage": "https://lifejuggler.github.io/react-cat-tree/",
   "bugs": "https://github.com/lifejuggler/react-cat-tree/issues",
   "authors": [
-    "Chris Fritz"
+    "Tom Choi"
   ],
   "license": "MIT",
   "jest": {
@@ -133,6 +133,9 @@
   },
   "keywords": [
     "react",
-    "react-component"
+    "react-component",
+    "tree",
+    "category",
+    "sortable"
   ]
 }
