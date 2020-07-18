@@ -21,7 +21,9 @@
     "deploy": "gh-pages -d build",
     "deploy-storybook": "storybook-to-ghpages"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -30,10 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lifejuggler/react-cat-tree"
+    "url": "git+https://github.com/lifejuggler/react-cat-tree.git"
   },
   "homepage": "https://lifejuggler.github.io/react-cat-tree/",
-  "bugs": "https://github.com/lifejuggler/react-cat-tree/issues",
+  "bugs": {
+    "url": "https://github.com/lifejuggler/react-cat-tree/issues"
+  },
   "authors": [
     "Tom Choi"
   ],
@@ -137,5 +141,6 @@
     "tree",
     "category",
     "sortable"
-  ]
+  ],
+  "author": "Tom Choi"
 }
