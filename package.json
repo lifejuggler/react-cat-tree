@@ -1,6 +1,6 @@
 {
   "name": "react-cat-tree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sortable tree with drag and drop feature",
   "scripts": {
     "start": "parcel website/index.html",
