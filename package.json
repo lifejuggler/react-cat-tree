@@ -1,5 +1,5 @@
 {
-  "name": "react-cat-tree",
+  "name": "@lifejuggler/react-cat-tree",
   "version": "0.0.2",
   "description": "sortable tree with drag and drop feature",
   "scripts": {
