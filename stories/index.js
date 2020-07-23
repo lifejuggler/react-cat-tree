@@ -4,6 +4,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import AddRemoveExample from './add-remove';
 import BarebonesExample from './barebones';
+import BarebonesExampleNoContext from './barebones-no-context';
 import CallbacksExample from './callbacks';
 import CanDropExample from './can-drop';
 import ChildlessNodes from './childless-nodes';
@@ -87,6 +88,7 @@ storiesOf('Advanced', module)
       'only-expand-searched-node.js'
     )
   )
-  .add('Prevent some nodes from having children', () =>
-    wrapWithSource(<ChildlessNodes />, 'childless-nodes.js')
-  );
+  .add('Prevent some nodes from having children', () => <ChildlessNodes />)
+  .add('Minimal implementation without Dnd Context', () => (
+    <BarebonesExampleNoContext />
+  ));

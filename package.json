@@ -1,6 +1,6 @@
 {
-  "name": "@lifejuggler/react-cat-tree",
-  "version": "0.0.2",
+  "name": "react-cat-tree",
+  "version": "0.0.1",
   "description": "sortable tree with drag and drop feature",
   "scripts": {
     "start": "parcel website/index.html",
@@ -11,7 +11,7 @@
     "clean": "rimraf dist",
     "clean:storybook": "rimraf build/storybook",
     "clean:website": "rimraf build",
-    "lint": "eslint src website",
+    "lint": "eslint src",
     "prettier": "prettier --write \"{src,example/src,stories}/**/*.{js,css,md}\"",
     "prepublishOnly": "yarn run test && yarn run build",
     "release": "standard-version",
@@ -22,7 +22,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -78,7 +78,7 @@
     "frontend-collective-react-dnd-scrollzone": "^1.0.2",
     "lodash.isequal": "^4.5.0",
     "prop-types": "^15.6.1",
-    "react-dnd": "^9.4.0",
+    "react-dnd": "^11.1.3",
     "react-dnd-html5-backend": "^10.0.2",
     "react-lifecycles-compat": "^3.0.4",
     "react-virtualized": "^9.21.2",
