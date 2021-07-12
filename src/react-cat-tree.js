@@ -6,6 +6,7 @@ import withScrolling, {
 import isEqual from 'lodash.isequal';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import { DndContext, DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { polyfill } from 'react-lifecycles-compat';
 import { AutoSizer, List } from 'react-virtualized';
